@@ -1,0 +1,14 @@
+@import "../valo/valo.scss";
+
+@mixin mytheme {
+	@include valo;
+	
+	.bg-menu {
+		background-color: #4286f4;
+	}
+	
+	.bg-main {
+		background-color: #f44141;
+	}
+	
+}
